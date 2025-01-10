@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('assets/back.png');
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Cambia el tamaño a "contain" en pantallas pequeñas */
+    }
+}
+
+
+.container {
+    position: relative;
+    height: 50vh; /* Altura completa de la ventana */
+    gap: 20px; /* Espaciado entre imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a nuevas líneas si es necesario */
+    display: flex;
+    align-items: center; /* Alineación vertical */
+    gap: 20px; /* Espaciado entre imágenes */
+
+   
+}
+
+img {
+    display: flex;
+    position: absolute;
+    max-width: 6%; /* Ajusta el tamaño relativo al contenedor */
+    height: auto;
+}
+
+/* Posiciones relativas */
+.img1 {
+    bottom: -400px;
+    left: 10px;
+}
+
+.img2 {
+    bottom: -400px;
+    left: 110px;
+}
+
+.img3 {
+    bottom: -400px;
+    left: 210px;    
+}
+
+.img4 {
+    bottom: -400px;
+    left: 310px;
+}
+
+.img5 {
+    bottom: -400px;
+    left: 410px;
+}
+
+.img6 {
+    bottom: -400px;
+    left: 510px;
+}
+
+.img7 {
+    bottom: -400px;
+    left: 610px;
+}
+
+.img8 {
+    bottom: -400px;
+    left: 710px;
+}
+
+.img9 {
+    bottom: -400px;
+    left: 810px;
+}
+
+.img10 {
+    bottom: -400px;
+    left: 910px;
+}
+
+.img11 {
+    bottom: -400px;
+    left: 1010px;
+}
+
+.img12 {
+    bottom: -400px;
+    left: 1110px;
+}
+
+.img13 {
+    bottom: -400px;
+    left: 1210px;
+}
+
+.img14 {
+    bottom: -400px;
+    left: 1310px;
+}
+
+.img15 {
+    bottom: -400px;
+    left: 1410px;
+}
+
+.img16 {
+    bottom: -400px;
+    left: 1510px;
+}
+
